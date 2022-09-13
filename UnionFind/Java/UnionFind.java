@@ -53,7 +53,7 @@ public class UnionFind
     {
         Scanner in;
         try {
-            in = new Scanner(new File("/Users/sangnguyen/Documents/IMP_221/AdvancedAlgorithms/Projects/Algos/UnionFind/tiny.txt"));
+            in = new Scanner(new File("UnionFind/tiny.txt"));
             int N = in.nextInt();    // Read number of sites
             UnionFind uf = new UnionFind(N); // Initialize N components.
             while (in.hasNextInt())
